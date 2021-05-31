@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    
+}
+.emoji{
+font-size: 100px;
+cursor: pointer;
+user-select: none;
+
+}
+.closed{
+    display: none;
+    align-self: center;
+
+}
+
+.open{
+    display: none;
+}
+.active{
+  display: block;  
+}
